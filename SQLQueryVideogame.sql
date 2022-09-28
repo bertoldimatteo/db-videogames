@@ -49,3 +49,32 @@
 --WHERE software_house_id = '1'
 --AND release_date LIKE '%2018%'
 
+
+--Query con group by
+
+--SELECT COUNT(country)
+--FROM software_houses
+--GROUP BY country
+
+--SELECT COUNT(rating)
+--FROM reviews
+--GROUP BY videogame_id
+
+--SELECT COUNT(videogame_id)
+--FROM pegi_label_videogame
+--GROUP BY pegi_label_id
+
+--SELECT COUNT(*)
+--FROM videogames
+--GROUP BY YEAR(release_date)
+
+--SELECT COUNT(videogame_id)
+--FROM device_videogame
+--GROUP BY device_id
+
+--SELECT AVG(rating)
+--FROM reviews
+--GROUP BY videogame_id
+
+
+--Query con join
