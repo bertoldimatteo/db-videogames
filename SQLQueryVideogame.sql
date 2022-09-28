@@ -78,3 +78,15 @@
 
 
 --Query con join
+
+--SELECT DISTINCT(player_id)
+--FROM reviews
+--INNER JOIN players
+--ON player_id = reviews.player_id
+
+
+
+
+
+
+
