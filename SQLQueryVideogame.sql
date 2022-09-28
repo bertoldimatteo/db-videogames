@@ -1,4 +1,6 @@
-﻿--SELECT *
+﻿--Query su singola tabella
+
+--SELECT *
 --FROM software_houses
 --WHERE country = 'United States';
 
@@ -33,3 +35,17 @@
 --SELECT *
 --FROM videogames
 --WHERE release_date LIKE '%2020%'
+
+--SELECT DISTINCT videogame_id
+--FROM reviews
+--WHERE rating = '5'
+
+--SELECT AVG(rating) AS media, COUNT(rating) AS totale
+--FROM reviews
+--WHERE videogame_id = '412'
+
+--SELECT *
+--FROM videogames
+--WHERE software_house_id = '1'
+--AND release_date LIKE '%2018%'
+
